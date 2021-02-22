@@ -1,0 +1,5 @@
+# Apache環境
+/php7/home
+/php7/www/html
+# mysql環境
+/mysql/data
