@@ -21,8 +21,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=test
-      - MYSQL_USER=tokumine
-      - MYSQL_PASSWORD=tokumine
+      - MYSQL_USER=toku-yu
+      - MYSQL_PASSWORD=toku-yu
       - TZ='Asia/Tokyo'
     command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci
     ports:
